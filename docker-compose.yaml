@@ -16,7 +16,7 @@ services:
       - /etc/localtime:/etc/localtime:ro
       - /docker/appdata/radarr:/config
       - /data:/data
- sonarr:
+  sonarr:
     container_name: sonarr
     image: ghcr.io/hotio/sonarr:latest
     restart: unless-stopped
